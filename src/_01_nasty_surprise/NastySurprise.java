@@ -52,7 +52,7 @@ public class NastySurprise implements ActionListener {
 public void actionPerformed(ActionEvent e) {
 	// TODO Auto-generated method stub
 	if(e.getSource()==button1) {
-	showPictureFromTheInternet("https://www.nme.com/blogs/the-movies-blog/it-2-film-release-date-casting-trailer-2139755");
+	showPictureFromTheInternet("https://www.digitalspy.com/tv/ustv/a838049/it-movie-bill-skarsgard-james-corden-pennywise/");
 	}
 	else if(e.getSource()==button2) {
 	showPictureFromTheInternet("https://www.goodhousekeeping.com/life/pets/g5053/unique-dog-names/");	
