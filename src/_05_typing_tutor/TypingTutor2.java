@@ -1,10 +1,11 @@
+package _05_typing_tutor;
 import java.util.Random;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class TypingTutor {
+public class TypingTutor2 {
 char currentLetter;
 public static void main(String[] args) {
 JFrame frame = new JFrame("Type or Die");
