@@ -21,6 +21,7 @@ public class LatestTweet implements ActionListener {
 	JLabel label = new JLabel();
 	JButton button = new JButton("Search the Twitterverse");
 	JTextField textfield = new JTextField(10);
+	String input;
 	public void run() {
 	frame.add(panel);
 	panel.add(button);
@@ -57,5 +58,8 @@ public class LatestTweet implements ActionListener {
 		if(e.getSource()==button) {
 			System.out.println("Tweet, tweet");
 		}
+		input = textfield.getText();
+		System.out.println(getLatestTweet(input));
+		label.setText(getLatestTweet(input));
 	}
 }
