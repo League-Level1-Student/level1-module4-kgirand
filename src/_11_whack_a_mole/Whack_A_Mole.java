@@ -48,9 +48,9 @@ void speak(String words) {
 }
 private void endGame(Date timeAtStart, int molesWhacked) { 
     Date timeAtEnd = new Date();
-    JOptionPane.showMessageDialog(null, "Your whack rate is "
+    JOptionPane.showMessageDialog(null, "You took "
             + ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00 / molesWhacked)
-                  + " moles per second.");
+                  + " seconds per mole.");
 }
 private void playSound(String fileName) { 
     AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName));
