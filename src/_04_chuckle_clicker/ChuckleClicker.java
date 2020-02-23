@@ -19,6 +19,8 @@ JFrame frame = new JFrame();
 frame.setVisible(true);
 JPanel panel = new JPanel();
 frame.add(panel);
+frame.setSize(300,200);
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 button1 = new JButton("joke");
 button2 = new JButton("punchline");
 panel.add(button1);

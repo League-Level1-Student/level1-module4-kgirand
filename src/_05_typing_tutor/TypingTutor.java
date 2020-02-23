@@ -46,6 +46,7 @@ public void keyTyped(KeyEvent e) {
 	label.setBackground(Color.GREEN);
 	i++;
 	}
+	
 	else {
 	System.out.println("wrong");
 	label.setBackground(Color.RED);
@@ -53,6 +54,7 @@ public void keyTyped(KeyEvent e) {
 	if(i>15) {
 		showTypingSpeed(i);
 	}
+	
 }
 
 private void showTypingSpeed(int numberOfCorrectCharactersTyped) {

@@ -19,7 +19,7 @@ public class Magic8Ball {
 	// 3. Print out this variable
 		System.out.println(r);
 	// 4. Get the user to enter a question for the 8 ball
-		JOptionPane.showInputDialog("What would you like to ask the fourtune telller?");
+		JOptionPane.showInputDialog("What would you like to ask the fourtune teller?");
 	// 5. If the random number is 0
 		if(r==0) {
 			JOptionPane.showMessageDialog(null, "Yes");
