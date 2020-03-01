@@ -13,6 +13,7 @@ import javax.swing.JTextField;
 public class Calculator implements ActionListener {
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
+	JLabel label = new JLabel("No comas");
 	JButton addB = new JButton("add");
 	JButton subB = new JButton("subtract");
 	JButton mulB = new JButton("multiply");
@@ -23,8 +24,9 @@ public class Calculator implements ActionListener {
 	double input1;
 	double input2;
 public void run() {	
-	frame.setSize(90,250);
+	frame.setSize(100,275);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	panel.add(label);
 	panel.add(field1);
 	panel.add(field2);
 	panel.add(addB);

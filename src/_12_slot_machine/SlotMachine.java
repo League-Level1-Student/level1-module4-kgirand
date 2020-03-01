@@ -35,8 +35,11 @@ public void run() {
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
 	panel.add(reel1);
+	reel1.setLocation(200, 150);
 	panel.add(reel2);
+	reel2.setLocation(400, 150);
 	panel.add(reel3);
+	reel3.setLocation(600, 150);
 	JButton button = new JButton("Spin");
 	button.addActionListener(this);
 	frame.add(panel);
@@ -44,7 +47,7 @@ public void run() {
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	frame.setVisible(true);
 	button.setLocation(250,150);
-	frame.setSize(500,300);
+	frame.setSize(800,300);
 
 }
 public void spin() {

@@ -23,10 +23,10 @@ public class LatestTweet implements ActionListener {
 	JTextField textfield = new JTextField(10);
 	String input;
 	public void run() {
+	panel.add(textfield);
 	frame.add(panel);
 	panel.add(button);
 	panel.add(label);
-	panel.add(textfield);
 	frame.pack();
 	frame.setVisible(true);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
